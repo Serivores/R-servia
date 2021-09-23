@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/static/Raleway-Bold.ttf');
+}
+html{
+    font-family: 'Raleway';
+}
+/* MENU */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+nav a {
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    color: #0065FC;
+    
+    }
+
+    li {
+        list-style: none;
+    }
+
+    nav a:hover { /* Survol menu */
+        color: #F2F2F2;
+        border-top: 2px #0065FC solid;
+        }
+        
+/* TITRE AVANT RECHERCHE */
+        h1{
+
+        }
